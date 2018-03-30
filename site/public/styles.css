@@ -1,0 +1,236 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hamburger-f {
+  width: 24px;
+  fill: white;
+}
+
+a {
+  text-decoration: none;
+}
+.lead {
+  font-size: 24px;
+  /* color: #222222;*/
+  color: white;
+  padding-bottom: 10px;
+}
+.tx {
+  color: rgb(59, 59, 59);
+  color: white;
+  padding-bottom: 54px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.m {
+  /* background-image: url("http://www.63.co.kr/images/index/section_01_type1.jpg"); */
+ /* background-image: url("https://images.pexels.com/photos/746421/pexels-photo-746421.jpeg");*/
+  background-image: url("./img/jellyfish.jpg");
+  
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: cover;
+  display: block;
+  z-index: -999;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 116px;
+}
+.lr-r {
+  /* width: 50%; */
+  text-align: center
+}
+.email {
+  margin: 0 auto;
+  padding: 14px 56px;
+  border: 1px solid #ffffff;
+  color: #333333;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.email:hover {
+  transition: color, border 300ms;
+  border: 1px solid #658efd;
+  color: #658efd; 
+}
+
+.article-link {
+  text-decoration: none;
+  color: #000000;
+ /* color: #ff0052; */
+}
+.article-link:hover {
+  transition: color 300ms;
+  color: #cc0042;
+}
+.navlist {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navbar a {
+  color: white;
+}
+.nav-l {
+  color: white;
+  text-decoration: none;
+}
+.navlist li {
+  height: 80px;
+  line-height: 80px;
+  padding: 0 20px;
+}
+
+.logo {
+  margin-left: 28px;
+  width: 160px;
+}
+
+
+.navbar {
+  padding: 0 16px;
+  /* background: #e2e2e2; */
+  /* height: 75px; */
+}
+header {
+  display: block;
+  position: relative;
+  width: 100%;
+  font-size: 18px;
+  /* background: rgba(167, 29, 29, 0.1) */
+}
+
+/* header::before {
+  background-color: #ff0052;
+  background: -webkit-linear-gradient(right, #ff0052, #8e2b88);
+  background: -o-linear-gradient(right, #ff0052, #8e2b88);
+  background: -moz-linear-gradient(right, #ff0052, #8e2b88);
+  background: linear-gradient(right, #ff0052, #8e2b88);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+} */
+
+.navbar .toggle, .navbar .brand {
+  display: inline-block;
+}
+.navbar .link {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  /* background: seagreen;
+  color: white; */
+}
+
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  min-height: 42px;
+  margin-right: 34px;
+}
+
+.navbar .brand {
+  width: 10em;
+  text-align: center;
+  color: white;
+}
+.navbar .toggle {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  color: white;
+  vertical-align: middle;
+}
+
+@media (min-width: 48em) {
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+  }
+  .navbar .left, .navbar .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .navbar .link {
+    width: auto;
+  }
+  .navbar .right {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .navbar .toggle {
+    display: none;
+  }
+}
+/* .navbar .left, .navbar .right {
+  display: none;
+} */
+@media (min-width: 48em) {
+  .navbar .left, .navbar .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (max-width: 48em) {
+
+  .navbar.active .left, .navbar.active .right {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .navlist li {
+    padding: 0 8px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+  }
+  .f-o {
+    padding-left: 0 !important;
+  }
+  .main {
+    width: 85%;
+  }
+  /* .navbar {
+    padding: 0 14px;
+  } */
+  .logo {
+    margin-left: 0;
+    width: 158px;
+    padding: 0px;
+  }
+}
