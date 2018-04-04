@@ -23,7 +23,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	title = "facebook"
 	url = "https://www.facebook.com"
     icon = "fa-facebook-square"
-    footer = true
+    footer = false
     sharethis = true
     network = "facebook"
 [[params.social]]
@@ -37,14 +37,14 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	title = "instagram"
 	url = "https://www.instagram.com"
     icon = "fa-instagram"
-    footer = true
+    footer = false
     sharethis = false
     network = ""
 [[params.social]]
 title = "youtube"
 url = "https://www.youtube.com"
 icon = "fa-youtube"
-footer = true
+footer = false
 sharethis = true
 network = "youtube"
 [[params.social]]
