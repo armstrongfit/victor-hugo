@@ -72,6 +72,6 @@ network = "youtube"
 	title = "email"
 	url = "mailto:mail@fitnessimage.com.au"
     icon = "fa-envelope"
-    footer = true
+    footer = false
     sharethis = true
     network = "email"
