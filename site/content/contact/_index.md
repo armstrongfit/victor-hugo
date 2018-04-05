@@ -4,10 +4,10 @@ date: 2017-12-01T10:09:58+11:00
 draft: false    
 ---
 
-<b>Want to get in touch? Let's Talk!<b>
+<p><b>Want to get in touch? Let's Talk!</b><p>
 
-To contact Armstrong please use the following information.
+<p>To contact Armstrong please use the following information:
 
-Armstrong Lazenby operates from his offices Monday - Saturday 9am - 5pm Australian Eastern Daylight Time (AEDT). 
+Armstrong Lazenby operates from his offices Monday - Saturday 9am - 5pm Australian Eastern Daylight Time (AEDT).<p> 
 
-Email: armstrong@ninthsense.com.au
+<p><i>Email: armstrong@ninthsense.com.au</i><p>
